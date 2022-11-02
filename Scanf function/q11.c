@@ -1,16 +1,18 @@
 #include <stdio.h>
-#include <math.h>
 
 void main()
 {
-    double a, b, c, d, x1, x2;
-    printf("Enter value of a, b, c: ");
-    scanf("%lf %lf %lf", &a, &b, &c);
+    int hour, minute, second;
+    printf("Enter any second: ");
+    scanf("%d", &second);
 
-    d = sqrt((b * b) - (4 * a * c));
-    x1 = (-b + d) / (2 * a);
-    x2 = (-b - d) / (2 * a);
+    hour = second / 3600;
+    second = second % 3600;
 
-    printf("Value of x1: %.2lf \n", x1);
-    printf("Value of x2: %.2lf", x2);
+    minute = second / 60;
+    second = second % 60;
+
+    printf("%d hour ", hour);
+    printf("%d minute ", minute);
+    printf("%d second", second);
 }
