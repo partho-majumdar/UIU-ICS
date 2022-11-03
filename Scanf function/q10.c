@@ -2,15 +2,14 @@
 
 void main()
 {
-    float feet, inch;
+    int input_val, feet, inch;
 
     printf("Enter value in inches: ");
-    scanf("%f", &inch);
+    scanf("%d", &input_val);
 
-    feet = inch * 0.083333333;
+    feet = input_val / 12;
 
-    int integer_val = (int)feet;
-    float float_val = (feet - integer_val);
+    inch = input_val % 12;
 
-    printf("%d feet %.2f inch", integer_val, float_val);
+    printf("%d feet %d inch", feet, inch);
 }
