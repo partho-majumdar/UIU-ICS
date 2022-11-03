@@ -3,15 +3,13 @@
 
 void main()
 {
-    float height, meter;
+    int input_val, meter, centimeter;
 
     printf("Enter any value in centimeter: ");
-    scanf("%f", &height);
+    scanf("%d", &input_val);
 
-    meter = height / 100;
+    meter = input_val / 100;
+    centimeter = input_val % 100;
 
-    int integer_val = (int)meter;
-    float float_val = (meter - integer_val);
-
-    printf("%d meter %.2f centimeter", integer_val, float_val);
+    printf("%d meter %d centimeter", meter, centimeter);
 }
