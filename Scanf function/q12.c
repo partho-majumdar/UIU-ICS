@@ -4,7 +4,7 @@ void main()
 {
     int input_value, five_hundred, one_hundred, fifty, ten, five, one;
 
-    printf("Enter input_value: ");
+    printf("Enter amount of money: ");
     scanf("%d", &input_value);
 
     five_hundred = input_value / 500; // 1627 / 500 =-> 3

@@ -8,7 +8,7 @@ void main()
     printf("Enter value in radian: ");
     scanf("%f", &radian);
 
-    printf("Sin(%.2f) = %.2f \n", radian, sin(radian));
-    printf("Cos(%.2f) = %.2f \n", radian, cos(radian));
-    printf("Tan(%.2f) = %.2f \n", radian, tan(radian));
+    printf("Sin(%.3f) = %.3f \n", radian, sin(radian));
+    printf("Cos(%.3f) = %.3f \n", radian, cos(radian));
+    printf("Tan(%.3f) = %.3f \n", radian, tan(radian));
 }
