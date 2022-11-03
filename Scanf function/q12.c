@@ -2,32 +2,33 @@
 
 void main()
 {
-    int amount, five_hundred, one_hundred, fifty, ten, five, one;
+    int input_value, five_hundred, one_hundred, fifty, ten, five, one;
 
-    printf("Enter amount: ");
-    scanf("%d", &amount);
+    printf("Enter input_value: ");
+    scanf("%d", &input_value);
 
-    five_hundred = amount / 500; // 1627 / 500 =-> 3
-    amount = amount % 500;       // 1627 % 500 = 127
+    five_hundred = input_value / 500; // 1627 / 500 =-> 3
+    input_value = input_value % 500;  // 1627 % 500 = 127
 
-    one_hundred = amount / 100; // 127 / 100 =-> 1
-    amount = amount % 100;      // 127 % 100 = 27
+    one_hundred = input_value / 100; // 127 / 100 =-> 1
+    input_value = input_value % 100; // 127 % 100 = 27
 
-    fifty = amount / 50;  // 27 / 50 = 0
-    amount = amount % 50; // 27 % 50 = 27
+    fifty = input_value / 50;       // 27 / 50 = 0
+    input_value = input_value % 50; // 27 % 50 = 27
 
-    ten = amount / 10;    // 27 / 10 =-> 2
-    amount = amount % 10; // 27 % 10 = 7
+    ten = input_value / 10;         // 27 / 10 =-> 2
+    input_value = input_value % 10; // 27 % 10 = 7
 
-    five = amount / 5;   // 7 / 5 =-> 1
-    amount = amount % 5; // 7 % 5 = 2
+    five = input_value / 5;        // 7 / 5 =-> 1
+    input_value = input_value % 5; // 7 % 5 = 2
 
-    one = amount / 1;    // 2 / 1 =-> 2
-    amount = amount % 1; // 2 % 1 = 0
+    one = input_value / 1;         // 2 / 1 =-> 2
+    input_value = input_value % 1; // 2 % 1 = 0
 
-    printf("%d notes of 500 \n", five_hundred);
-    printf("%d notes of 100 \n", one_hundred);
-    printf("%d notes of 50 \n", fifty);
-    printf("%d notes of 10 \n", ten);
-    printf("%d notes of 5", one);
+    printf("%d note(s) of 500 \n", five_hundred);
+    printf("%d note(s) of 100 \n", one_hundred);
+    printf("%d note(s) of 50 \n", fifty);
+    printf("%d note(s) of 10 \n", ten);
+    printf("%d note(s) of 5 \n", five);
+    printf("%d note(s) of 1", one);
 }
