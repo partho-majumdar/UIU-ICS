@@ -1,9 +1,10 @@
 #include <stdio.h>
+#include <math.h>
 
 void main()
 {
-    float a = 2.3, b = 5.8, c = 1.1, d = 3.5, result;
+    float a = 21, b = 15, c = 34, d = 6, result;
 
-    result = (a + b - c) * d - a / d;
-    printf("Answer %.6f", result);
+    result = a * b + (a - c) / d + b;
+    printf("Answer %d", (int)result);
 }
