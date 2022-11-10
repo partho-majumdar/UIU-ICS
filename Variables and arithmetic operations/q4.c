@@ -1,14 +1,15 @@
 #include <stdio.h>
-#include <math.h>
+// #include <math.h>
 
 void main()
 {
-    float a = 21, b = 15, c = 34, d = 6, result;
+    // float a = 21, b = 15, c = 34, d = 6, result;
+    int result, a = 21, b = 15, c = 34, d = 6;
 
     result = a * b + (a - c) / d + b;
 
-    // int only_int = floor(result);
+    // int final_ans = (result) - 1;
 
-    printf("Answer %d", (int)result);
-    // printf("Answer %d", only_int);
+    printf("Answer %d", result);
+    // printf("Answer %d", final_ans);
 }
