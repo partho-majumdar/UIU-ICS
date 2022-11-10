@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <math.h>
 
 void main()
 {
@@ -7,7 +8,8 @@ void main()
 
     printf("Enter radius: ");
     scanf("%f", &radius);
-    result = pi * radius * radius;
+    // result = pi * radius * radius;
+    result = M_PI * radius * radius;
     printf("Area of a circle is: %.5f", result);
 }
 
