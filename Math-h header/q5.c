@@ -8,9 +8,23 @@ void main()
     scanf("%lf %lf %lf", &a, &b, &c);
 
     d = sqrt((b * b) - (4 * a * c));
-    x1 = (-b + d) / (2 * a);
-    x2 = (-b - d) / (2 * a);
 
-    printf("Value of x1: %.2lf \n", x1);
-    printf("Value of x2: %.2lf", x2);
+    if (d >= 0)
+    {
+        x1 = (-b + d) / (2 * a);
+        x2 = (-b - d) / (2 * a);
+
+        printf("Value of x1: %.2lf \n", x1);
+        printf("Value of x2: %.2lf", x2);
+    }
+    else
+    {
+        printf("Enter valid input");
+    }
+
+    // x1 = (-b + d) / (2 * a);
+    // x2 = (-b - d) / (2 * a);
+
+    // printf("Value of x1: %.2lf \n", x1);
+    // printf("Value of x2: %.2lf", x2);
 }
