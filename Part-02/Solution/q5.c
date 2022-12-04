@@ -1,22 +1,26 @@
 // ----------> Way 01 <----------
 
-// #include <stdio.h>
+/*
 
-// void main()
-// {
-//     int input_value;
-//     printf("Enter any number: ");
-//     scanf("%d", &input_value);
+#include <stdio.h>
 
-//     if ((input_value != 0) && (input_value & (input_value - 1)) == 0)
-//     {
-//         printf("%d is power of 2", input_value);
-//     }
-//     else
-//     {
-//         printf("%d is not power of 2", input_value);
-//     }
-// }
+void main()
+{
+    int input_value;
+    printf("Enter any number: ");
+    scanf("%d", &input_value);
+
+    if ((input_value != 0) && (input_value & (input_value - 1)) == 0)
+    {
+        printf("%d is power of 2", input_value);
+    }
+    else
+    {
+        printf("%d is not power of 2", input_value);
+    }
+}
+
+*/
 
 // ----------> Way 02 <----------
 
