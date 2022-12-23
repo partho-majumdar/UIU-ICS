@@ -2,66 +2,69 @@
 
 void main()
 {
-    int input_value;
-    printf("Enter any number from (0-9): ");
-    scanf("%d", &input_value);
+    // int input_value;
+    // printf("Enter any number from (0-9): ");
+    // scanf("%d", &input_value);
 
     //---------> Way - 01 <---------
 
-    if (input_value == 0)
-    {
-        printf("Zero");
-    }
+    /*
+        if (input_value == 0)
+        {
+            printf("Zero");
+        }
 
-    else if (input_value == 1)
-    {
-        printf("One");
-    }
+        else if (input_value == 1)
+        {
+            printf("One");
+        }
 
-    else if (input_value == 2)
-    {
-        printf("Two");
-    }
+        else if (input_value == 2)
+        {
+            printf("Two");
+        }
 
-    else if (input_value == 3)
-    {
-        printf("Three");
-    }
+        else if (input_value == 3)
+        {
+            printf("Three");
+        }
 
-    else if (input_value == 4)
-    {
-        printf("Four");
-    }
+        else if (input_value == 4)
+        {
+            printf("Four");
+        }
 
-    else if (input_value == 5)
-    {
-        printf("Five");
-    }
+        else if (input_value == 5)
+        {
+            printf("Five");
+        }
 
-    else if (input_value == 6)
-    {
-        printf("Six");
-    }
+        else if (input_value == 6)
+        {
+            printf("Six");
+        }
 
-    else if (input_value == 7)
-    {
-        printf("Seven");
-    }
+        else if (input_value == 7)
+        {
+            printf("Seven");
+        }
 
-    else if (input_value == 8)
-    {
-        printf("Eight");
-    }
+        else if (input_value == 8)
+        {
+            printf("Eight");
+        }
 
-    else if (input_value == 9)
-    {
-        printf("Nine");
-    }
+        else if (input_value == 9)
+        {
+            printf("Nine");
+        }
 
-    else
-    {
-        printf("Enter number from 0 to 9");
-    }
+        else
+        {
+            printf("Enter number from 0 to 9");
+        }
+
+    */
 
     //---------> Way - 02 <---------
 
@@ -118,9 +121,9 @@ void main()
 
     //---------> Way - 03 (Advanced) <---------
 
-    /*
-
     int input_value = 2345;
+
+    int temp = input_value;
 
     int sum = 0;
     int rem = 0;
@@ -132,6 +135,7 @@ void main()
         input_value = input_value / 10;
     }
 
+    printf("Original number: %d \n", temp);
     printf("Reverse num is: %d \n", sum);
 
     while (sum != 0)
@@ -181,11 +185,9 @@ void main()
             break;
 
         default:
-            printf("Enter number from 0 to 9");
+            printf("Enter valid number");
             break;
         }
         sum = sum / 10;
     }
-
-    */
 }
