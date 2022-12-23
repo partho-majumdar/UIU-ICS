@@ -10,6 +10,7 @@ void main()
     {
         printf("You entered %d and this number is even", input_value);
     }
+
     else
     {
         printf("You entered %d and this number is odd", input_value);
