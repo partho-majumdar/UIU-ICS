@@ -28,6 +28,7 @@ void main()
     {
         printf("Multiplication of two number is: %f", number1 * number2);
     }
+
     else if (operator== '/')
     {
         if (number2 == 0)
