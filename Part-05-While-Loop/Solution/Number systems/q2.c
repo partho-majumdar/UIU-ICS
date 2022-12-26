@@ -3,7 +3,7 @@
 void main()
 {
     int input_value;
-    printf("Enter integer value: ");
+    printf("Enter decimal value: ");
     scanf("%d", &input_value);
 
     int octal = 0, place = 1;
