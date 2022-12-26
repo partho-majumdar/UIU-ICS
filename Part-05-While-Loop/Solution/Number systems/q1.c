@@ -18,5 +18,5 @@ void main()
         input_value = input_value / 2;
     }
 
-    printf("%d", binary);
+    printf("Binary: %d", binary);
 }
