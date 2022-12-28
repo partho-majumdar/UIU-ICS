@@ -7,9 +7,9 @@ void main()
     scanf("%d", &input_value);
 
     int sum = 0;
-    for (int i = 1; i <= input_value; i++)
+    for (int i = 1, j = 1; i <= input_value; i++, j++)
     {
-        sum = sum + i;
+        sum = sum + j;
     }
 
     printf("Answer: %d", sum);
