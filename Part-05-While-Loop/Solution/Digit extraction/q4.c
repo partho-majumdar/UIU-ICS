@@ -74,14 +74,64 @@ void main()
         input_value = input_value / 10;
     }
 
-    printf("Frequency of 0: %d\n", frequency_0);
-    printf("Frequency of 1: %d\n", frequency_1);
-    printf("Frequency of 2: %d\n", frequency_2);
-    printf("Frequency of 3: %d\n", frequency_3);
-    printf("Frequency of 4: %d\n", frequency_4);
-    printf("Frequency of 5: %d\n", frequency_5);
-    printf("Frequency of 6: %d\n", frequency_6);
-    printf("Frequency of 7: %d\n", frequency_7);
-    printf("Frequency of 8: %d\n", frequency_8);
-    printf("Frequency of 9: %d\n", frequency_9);
+    if (frequency_0 != 0)
+    {
+        printf("0 => %d\n", frequency_0);
+    }
+
+    if (frequency_1 != 0)
+    {
+        printf("1 => %d\n", frequency_1);
+    }
+
+    if (frequency_2 != 0)
+    {
+        printf("2 => %d\n", frequency_2);
+    }
+
+    if (frequency_3 != 0)
+    {
+        printf("3 => %d\n", frequency_3);
+    }
+
+    if (frequency_4 != 0)
+    {
+        printf("4 => %d\n", frequency_4);
+    }
+
+    if (frequency_5 != 0)
+    {
+        printf("5 => %d\n", frequency_5);
+    }
+
+    if (frequency_6 != 0)
+    {
+        printf("6 => %d\n", frequency_6);
+    }
+
+    if (frequency_7 != 0)
+    {
+        printf("7 => %d\n", frequency_7);
+    }
+
+    if (frequency_8 != 0)
+    {
+        printf("8 => %d\n", frequency_8);
+    }
+
+    if (frequency_9 != 0)
+    {
+        printf("9 => %d\n", frequency_9);
+    }
+
+    // printf("Frequency of 0: %d\n", frequency_0);
+    // printf("Frequency of 1: %d\n", frequency_1);
+    // printf("Frequency of 2: %d\n", frequency_2);
+    // printf("Frequency of 3: %d\n", frequency_3);
+    // printf("Frequency of 4: %d\n", frequency_4);
+    // printf("Frequency of 5: %d\n", frequency_5);
+    // printf("Frequency of 6: %d\n", frequency_6);
+    // printf("Frequency of 7: %d\n", frequency_7);
+    // printf("Frequency of 8: %d\n", frequency_8);
+    // printf("Frequency of 9: %d\n", frequency_9);
 }
