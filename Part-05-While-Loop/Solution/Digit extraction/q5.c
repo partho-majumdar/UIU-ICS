@@ -3,9 +3,9 @@
 
 int main()
 {
-    int input_number = 65237, first, last, swap, digit, divide;
-    // printf("Enter any number: ");
-    // scanf("%d", &input_number);
+    int input_number, first, last, swap, digit, divide;
+    printf("Enter any number: ");
+    scanf("%d", &input_number);
 
     digit = log10(input_number);
 
