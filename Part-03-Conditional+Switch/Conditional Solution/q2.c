@@ -2,18 +2,23 @@
 
 void main()
 {
-    int n1, n2;
-    scanf("%d %d", &n1, &n2);
+    int sum = 0;
+    int count = 0;
 
-    int sum = n1 + n2;
-
-    if (sum > 100 && sum < 200 && sum % 7 == 0)
+    for (int i = 101; i < 200; i++)
     {
-        printf("First --> %d and %d are greater than 100 and less than 200 those are divisible by 7", n1, n2);
+        if (i % 7 == 0)
+        {
+            printf("Number: %d\n", i);
+            sum += i;
+            count++;
+        }
     }
 
-    else
-    {
-        printf("Second --> %d and %d are greater than 100 and less than 200 those are not divisible by 7", n1, n2);
-    }
+    printf("Sum of all integer: %d\n", sum);
+    printf("Total number: %d", count);
 }
+
+/*
+    100 - 200 er moddhe total koyta number ache jader 7 diye divide kora jay and shei number er sum koto?
+*/
