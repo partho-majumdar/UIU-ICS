@@ -32,5 +32,8 @@ void main()
     case 5:
         printf("Total: R$ %.2f", 1.50 * quantity);
         break;
+
+    default:
+        printf("Enter value from 1-5");
     }
 }
