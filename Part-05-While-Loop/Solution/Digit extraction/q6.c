@@ -7,12 +7,14 @@ void main()
     printf("Enter any number: ");
     scanf("%d", &input_value);
 
+    int digit = log10(input_value);
     int temp_value = input_value;
     int sum = 0;
+
     while (input_value != 0)
     {
         int last_digit = input_value % 10;
-        sum += pow(last_digit, 3);
+        sum += pow(last_digit, digit + 1);
         input_value = input_value / 10;
     }
 
