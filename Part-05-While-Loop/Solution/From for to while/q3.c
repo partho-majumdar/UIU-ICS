@@ -14,7 +14,7 @@ void main()
         ans = ans + (j * l);
     }
 
-    printf("Answer: %d ", ans);
+    printf("Answer: %d", ans);
 }
 
 /*
