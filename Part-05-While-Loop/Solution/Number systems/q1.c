@@ -10,9 +10,9 @@ void main()
 
     while (input_value != 0)
     {
-        int last_digit = input_value % 2;
+        int last_binary_digit = input_value % 2;
 
-        binary = binary + (last_digit * place);
+        binary = binary + (last_binary_digit * place);
         place = place * 10;
 
         input_value = input_value / 2;

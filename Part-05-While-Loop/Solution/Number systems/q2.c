@@ -10,9 +10,9 @@ void main()
 
     while (input_value != 0)
     {
-        int last_digit = input_value % 8;
+        int last_octal_digit = input_value % 8;
 
-        octal = octal + (last_digit * place);
+        octal = octal + (last_octal_digit * place);
         place = place * 10;
 
         input_value = input_value / 8;
